@@ -1,0 +1,42 @@
+/**
+ * @file creates the grid and card styles
+ * @author Declan de Haas
+ */
+ 
+.grid {
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.gridl{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+display: flex;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: auto;
+background-color: #fafafa;
+border-radius: 8px;
+margin-left: 10px;
+margin-top: 10px;
+align-items: center;
+justify-content: center;
+color: #000;
+background-color: rgb(177, 219, 255);
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+padding: 16px 16px;
+}
