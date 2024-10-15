@@ -1,9 +1,7 @@
-# s2-23-id608001-project-1-declandeh00
+# Hacker News Assignment
 
 ### Name:
 Declan de Haas
-### Student Number:
-1000051803
 
 ## A URL to your application on Vercel.
 Here is the URL link to my application on Vercel:
